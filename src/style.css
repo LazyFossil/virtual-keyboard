@@ -1,0 +1,305 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.title {
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+  font-size: 30px;
+  padding: 18px 0;
+  color: rgb(20, 20, 20);
+}
+
+.textarea {
+  display: block;
+  width: 820px;
+  height: 200px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  border: 1px solid rgb(80, 80, 80);
+  padding: 9px;
+  font-size: 18px;
+}
+
+.wrapper {
+  padding: 0 30px;
+  font-family: 'Roboto';
+  width: 840px;
+  margin: 0 auto;
+}
+
+.keyboard {
+  width: 825px;
+  padding: 9px 9px 9px 0;
+  border: 3px solid rgb(30, 30, 30);
+  background-color: rgb(42, 42, 42);
+  border-radius: 8px;
+}
+
+.keyboard__row {
+  display: flex;
+}
+
+.keyboard__row:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  background-color: rgb(126, 126, 126);
+  border-radius: 4px;
+  margin-left: 9px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  transition: all 0.15s;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.keyboard .key:hover {
+  background-color: rgb(80, 80, 80);
+  transition: all 0.15s;
+}
+
+.keyboard .key:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .Backspace {
+  width: 101px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .Backspace:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .Backspace:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .Tab {
+  width: 73.5px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .Tab:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .Tab:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .Backslash {
+  width: 73.5px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .Backslash:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .Backslash:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .CapsLock {
+  width: 90px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .CapsLock:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .CapsLock:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .Enter {
+  width: 112px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .Enter:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .Enter:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .ShiftLeft {
+  width: 118px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .ShiftLeft:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .ShiftLeft:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .ShiftRight {
+  width: 139px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .ShiftRight:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .ShiftRight:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .ControlLeft {
+  width: 60px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .ControlLeft:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .ControlLeft:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .ControlRight {
+  width: 60px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .ControlRight:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .ControlRight:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .AltLeft {
+  width: 60px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .AltLeft:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .AltLeft:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .AltRight {
+  width: 60px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .AltRight:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .AltRight:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .MetaLeft {
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .MetaLeft:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .MetaLeft:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .Space {
+  width: 320px;
+}
+
+.Arrow-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.keyboard .ArrowUp {
+  height: 21px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .ArrowUp:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .ArrowUp:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .ArrowDown {
+  height: 21px;
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .ArrowDown:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .ArrowDown:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .ArrowLeft {
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .ArrowLeft:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .ArrowLeft:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
+
+.keyboard .ArrowRight {
+  background-color: rgb(80, 80, 80);
+}
+
+.keyboard .ArrowRight:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.keyboard .ArrowRight:active{
+  background-color: rgb(99, 241, 123);
+  transition: all 0.15s;
+}
